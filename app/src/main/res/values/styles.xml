@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="begin_guide">
+        <item name="layout_constraintGuide_begin">16dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+    <style name="end_guide">
+        <item name="layout_constraintGuide_end">16dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+    <style name="bottom_navigation_view" >
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="itemIconTint">@color/btn_foreground</item>
+        <item name="itemTextColor">@color/btn_foreground</item>
+        <item name="menu">@menu/bottom_menu</item>
+    </style>
+   <style name="Tablayout">
+       <item name="layout_constraintVertical_bias">0.1</item>
+       <item name="tabIndicatorColor">@color/fire</item>
+       <item name="tabTextColor">@android:color/darker_gray</item>
+       <item name="tabMode">scrollable</item>
+       <item name="tabSelectedTextColor">@color/black</item>
+       <item name="android:layout_width">0dp</item>
+       <item name="android:layout_height">wrap_content</item>
+       <item name="tabRippleColor">@null</item>
+   </style>
+    <style name="view_pager">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+    <style name="guide_v20">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="layout_constraintGuide_percent">0.25</item>
+    </style>
+    <style name="item_image_view">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="riv_corner_radius">16dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+    <style name="item_text_view">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:gravity">center|top</item>
+        <item name="maxLines">2</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="progress_bar">
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="theme">@style/Theme.Task.BlackAccent</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+    <style name="text_error">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:text">@string/error_text</item>
+    </style>
+    <style name="button_retry">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:text">@string/retry_text</item>
+        <item name="background">@drawable/bg_button_contained_round</item>
+        <item name="android:padding">8dp</item>
+    </style>
+    <style name="rv">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+    <style name="Theme.Task.BlackAccent">
+        <item name="colorAccent">@color/black</item> <!-- Whatever color you want-->
+    </style>
+    <style name="TextView_Register">
+        <item name="android:textViewStyle">@style/TextAppearance.MaterialComponents.Headline5</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/create_account</item>
+        <item name="layout_constraintVertical_bias">0.008</item>
+        <item name="layout_constraintHorizontal_bias">0</item>
+    </style>
+</resources>
+
